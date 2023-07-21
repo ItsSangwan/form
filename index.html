@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admission Form</title>
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Online Registration</h2>
+        <form method="POST" action="mailto: name@gmail.com"
+        enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="extr">
+            <label for="dob">DOB:</label>
+            <input type="date" id="date" name="date" required>
+          </div><br>
+          <div class="extr">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div><br>
+          <div class="extr">
+            <label for="score">10th score:</label>
+            <input type="numeric" id="score" name="score" required>
+          </div><br>
+          <div class="extr">
+            <label for="score">12th score:</label>
+            <input type="numeric" id="score" name="score" required>
+          </div><br>
+          <div class="extr">
+            <label for="score">jee mains:</label>
+            <input type="numeric" id="score" name="score">
+          </div><br>
+          <div class="form-group">
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+              <option value="" disabled selected>Select your course</option>
+              <option value="Btech">Btech</option>
+              <option value="Mtech">Mtech</option>
+              <option value="BCA">BCA</option>
+              <option value="MCA">MCA</option>
+              <option value="BSC">BSC</option>
+              <option value="BCOM">BCOM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea type="text"></textarea>
+          </div>
+         
+          <div class="form-group">
+            <input type="submit" value="Register">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
